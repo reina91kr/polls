@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원 가입</title>
+</head>
+<body>
+    <h2>회원 가입</h2>
+    <form action="" method="post">
+         {% csrf_token %}
+<!--        위 명령어를 입력하게 되면, 보안처리가 됨 (form에서는 필수사항) -->
+        <p>
+            <label for="userid">아이디</label>
+            <input type="text" id="userID" name="userid">
+        </p>
+        <p>
+            <input type="submit" value="전송">
+        </p>
+    </form>
+</body>
+</html>

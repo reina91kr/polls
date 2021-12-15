@@ -1,0 +1,8 @@
+/* index 스타일 */
+#container{width:1000px; margin: 0 auto;}
+section h1{color: green; font-size: 2em;}
+section ul li{margin:15px; font-size:1.2em;}
+section ul li a {text-decoration: none; color: black;}
+section ul li a:hover {text-decoration: underline; color: green;}
+
+/* detail 스타일 */

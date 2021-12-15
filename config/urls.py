@@ -20,5 +20,6 @@ from poll import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),        #127.0.0.1:8000/admin -- 로그인창
-    path('poll/', include('poll.urls'))     #127.0.0.1:8000/poll  / poll.url로 찾아가라는 의미
+    path('poll/', include('poll.urls')),    #127.0.0.1:8000/poll  / poll.url로 찾아가라는 의미
+    path('control/', include('control.urls'))
 ]
